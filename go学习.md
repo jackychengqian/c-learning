@@ -8,7 +8,7 @@
 
 
 
-
+https://mp.weixin.qq.com/s/ZW8czTaZ0lY5vb4HUbWEAw
 
  [什么是rpc.pdf](Q:\BaiduNetdiskDownload\慕课网体系课-2022-2023年Go开发工程师全新版-3888元-完结\课程资料\课程资料\Go工程师体系课全新版电子教程\第4周 从0开始理解rpc和grpc\simpread-8._什么是_rpc_Go_工程师体系课全新版_-_慕课网【加微信.赠送精品IT课程】.pdf) 
 
@@ -17,6 +17,10 @@
 # 1.go的net包
 
 # 2.rpc原理 stub
+
+protoc --proto_path=. --go-grpc_out=. user.proto
+
+protoc -I . --go_out=. --go-grpc_out=. user.proto
 
 # 3.协程
 
@@ -296,7 +300,9 @@ Go 协程和相关的同步机制如通道、`WaitGroup`、`context` 等，使�
 
 掌握这些技巧，可以有效地编写高效且可维护的并发程序。
 
+# 4.鸭子类型
 
+# 5.gin
 
 
 
